@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+	<meta charset="utf-8">
+    <th:block th:replace="fragments/head"></th:block>
+</head>
+<body>
+	<!-- 공통 header -->
+    <header th:replace="fragments/header :: commonHeader"></header>
+
+    <!-- page content body 구성 -->
+    <th:block layout:fragment="content"></th:block>
+    
+    <!-- 공통 footer -->
+    <footer th:replace="fragments/footer :: commonFooter"></footer>
+    
+    <!-- 공통 javascript -->
+    <th:block th:replace="fragments/script"></th:block>
+    
+    <!-- page content javascript -->
+    <th:block layout:fragment="pageCustomScript"></th:block>
+</body>
+</html>

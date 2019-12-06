@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Template Thymeleaf</title>
+	
+	<!-- CSS -->
+	<link th:src="@{/css/common.css}" rel="stylesheet">
+	
+	<!-- 컨텐츠 페이지 CSS 삽입 -->
+    <th:block layout:fragment="pageCustomCss"></th:block>
+	
+	<!-- JS -->
+	<script th:src="@{/js/common.js}"></script>
+</html>
