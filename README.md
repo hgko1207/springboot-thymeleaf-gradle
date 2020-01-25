@@ -1,2 +1,6 @@
 # springboot-thymeleaf-gradle
-Spring Boot + Thymeleaf + Gradle3 Template Project
+Web Template Project
+
+- Spring Boot
+- Thymeleaf
+- Gradle3
