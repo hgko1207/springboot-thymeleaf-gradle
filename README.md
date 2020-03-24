@@ -1,4 +1,4 @@
-# springboot-thymeleaf-gradle
+# Springboot + Thymeleaf + Gradle
 Web Template Project
 
 - Spring Boot
